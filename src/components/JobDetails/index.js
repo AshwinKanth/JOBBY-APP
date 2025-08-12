@@ -115,7 +115,11 @@ class JobDetails extends Component {
       <div>
         <div className="jobItemDetails-container">
           <div className="logo-jobName-container">
-            <img src={companyLogoUrl} alt={title} className="companyImage" />
+            <img
+              src={companyLogoUrl}
+              alt="job details company logo"
+              className="companyImage"
+            />
             <div className="jobTitle-container">
               <h1 className="jobTitle">{title}</h1>
               <div className="rating-container">
@@ -165,11 +169,12 @@ class JobDetails extends Component {
             </p>
             <img
               src={lifeAtCompany.imageUrl}
-              alt={title}
+              alt="life at company"
               className="lifeAtCompanyImage"
             />
           </div>
         </div>
+        <h1 className="similar-jobs-heading">Similar Jobs</h1>
         <ul className="similar-jobs-container">
           {similarJobsData.map(eachSimilarJob => (
             <SimilarJobs

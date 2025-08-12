@@ -207,6 +207,13 @@
   }
 }
 
+.similar-jobs-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+
 .loader-container {
   display: flex;
   flex-direction: column;

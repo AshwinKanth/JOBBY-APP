@@ -19,6 +19,7 @@ class Profile extends Component {
 
   getFormattedData = data => ({
     profileImageUrl: data.profile_image_url,
+    name: data.name,
     shortBio: data.short_bio,
   })
 
@@ -49,12 +50,12 @@ class Profile extends Component {
 
   renderProfileDetails = () => {
     const {profileData} = this.state
-    const {profileImageUrl, shortBio} = profileData
+    const {profileImageUrl, shortBio, name} = profileData
 
     return (
       <div>
-        <img src={profileImageUrl} alt="name" className="profileImage" />
-        <h1 className="profileName">Ashwin kanth Marapally</h1>
+        <img src={profileImageUrl} alt="profile" className="profileImage" />
+        <h1 className="profileName">{name}</h1>
         <p className="profileBio">{shortBio}</p>
       </div>
     )

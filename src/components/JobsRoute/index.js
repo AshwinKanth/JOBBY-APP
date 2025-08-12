@@ -190,7 +190,7 @@ class JobsRoute extends Component {
     return (
       <div className="search-container">
         <input
-          type="text"
+          type="search"
           className="searchInput"
           placeholder="Search"
           onChange={this.onChangeSearchInput}

@@ -5,12 +5,12 @@
   align-self: flex-start;
   max-height: 100vh;
   overflow-y: auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .filters-container {
     padding: 30px;
-    width: 100%;
   }
 }
 

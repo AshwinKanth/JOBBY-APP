@@ -26,6 +26,7 @@
 
 .search_jobDetails-container {
   padding: 20px;
+  width: 75%;
 }
 
 @media screen and (max-width: 768px) {
