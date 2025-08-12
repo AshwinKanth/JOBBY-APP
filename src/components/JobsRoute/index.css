@@ -1,0 +1,147 @@
+.jobsPage {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .jobsPage {
+    flex-direction: column;
+  }
+}
+
+.profile_filters_container {
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .profile_filters_container {
+    width: 100%;
+  }
+}
+
+.search_jobDetails-container {
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .search_jobDetails-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.search-container {
+  border: 1px solid #cbd5e1;
+  width: 450px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .search-container {
+    width: 350px;
+  }
+}
+
+.searchInput {
+  outline: none;
+  border-width: 0px;
+  width: 450px;
+  height: 35px;
+  background-color: transparent;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.search-button {
+  height: 30px;
+  width: 40px;
+  background-color: #202020;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #cbd5e1;
+}
+
+.jobs-container {
+  padding-left: 0px;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.no-jobs-image {
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .no-jobs-image {
+    width: 70%;
+  }
+}
+
+.failureHeading {
+  color: #ffffff;
+}
+
+.failureDescription {
+  color: #cbd5e1;
+}
+
+.button {
+  background-color: #6366f1;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.noJobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .noJobs-container {
+    padding-top: 80px;
+    justify-content: flex-start;
+  }
+}
+
+.noJobs-image {
+  width: 50%;
+}
+
+.noJobs-heading {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.noJobs-description {
+  color: #cbd5e1;
+  font-size: 17px;
+}

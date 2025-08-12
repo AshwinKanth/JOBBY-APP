@@ -1,0 +1,60 @@
+.filters-container {
+  padding: 30px;
+  position: sticky;
+  top: 80px;
+  align-self: flex-start;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .filters-container {
+    padding: 30px;
+    width: 100%;
+  }
+}
+
+.EmployeeTypeList {
+  padding-left: 0px;
+}
+
+.employmentTypeItem {
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .employmentTypeItem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.employmentHeading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .employmentHeading {
+    font-size: 14px;
+  }
+}
+
+.label {
+  color: #ffffff;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.salaryList {
+  padding-left: 0px;
+}
+
+.salaryListItem {
+  padding-bottom: 10px;
+  list-style: none;
+}
